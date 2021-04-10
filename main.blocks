@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="H!uA-;2*5}aN/KZpaH8j">Player</variable><variable type="KIND_SpriteKind" id="5+S`5F^hUSP+68xrZ.=#">Projectile</variable><variable type="KIND_SpriteKind" id="0IY.zoF2[J9J^RFc!P`^">Food</variable><variable type="KIND_SpriteKind" id="lYtCaDxVzS,bD(Pp7PAF">Enemy</variable><variable type="KIND_SpriteKind" id="u*UHA@V0Ex+0R;ZeDl!O">StatusBar</variable><variable type="KIND_SpriteKind" id="g[$wn.yJirv{VSCE@a!u">Text</variable><variable type="KIND_StatusBarKind" id="%6G)ZUjUe*|{(pTf~HV=">Health</variable><variable type="KIND_StatusBarKind" id="hD:@T$jU2@]jnQJK^]H}">Energy</variable><variable type="KIND_StatusBarKind" id="jMg5{5h5M5)eneKRioqb">Magic</variable><variable type="KIND_StatusBarKind" id="0rpq-^=bt%e%[iLc9^(|">EnemyHealth</variable><variable id="HudzEm-VlYgzL.6X[vmO">mySprite</variable><variable id="@kFyO.FU^C#/YsF#E_il">myCorg</variable><variable id="I*%r!K/$H.K[ii]B0.4Q">myCounter</variable><variable id="195dl?:oN=?xp^AUlYVF">strip</variable><variable id="Ar+8W5U4oX=3+}Dyi{Kq">myEnemy</variable><variable id="8(r6{sC!:.kgK8XkIE|_">myDigit</variable><variable id="|/^Y!`Oa|[dCK#EYZTI-">status bar list</variable><variable id="#93xz@V83Q!!p+lN(dBh">myDart</variable><variable type="RadioMessage" id="-LzrJ*%w|JD?8ncU1ji9">0message1</variable></variables><block type="pxt-on-start" id="*S,8c/iFpE![1r?saR1J" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="$OQIh:1R*7EdMrX{-wT#"><field name="VAR" id="HudzEm-VlYgzL.6X[vmO">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="KFS9V%J!;}M:?Rft-2B^"><value name="img"><shadow type="screen_image_picker" id="86/XReS-?dgFsuCq?q0b"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . . f d d d f . . . . . . 
+. . . . f d f d f d f . . . . . 
+. . . . . f d d d f . . . . . . 
+. . . . . . f 8 f . . . . . . . 
+. . . . . . f a f . . . . . . . 
+. . . f f . f 8 f . f f . . . . 
+. . f a f f f a f f f a f . . . 
+. . f 8 8 8 8 8 8 8 8 8 f . . . 
+. . f f f f f a f f f f f . . . 
+. . . . . . f 8 f . . . . . . . 
+. . . . . . f a f . . . . . . . 
+. . . . f f f 8 f f f . . . . . 
+. . . f 2 5 2 5 2 5 2 f . . . . 
+. . . f f f f f f f f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"86/XReS-?dgFsuCq?q0b"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="gNeVFEBtOQ:(7OFF^`?}"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="tilemap_editor" id="%85Bqg(+KWC7jh6:R#{{"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></block></next></block></statement></block></xml>
